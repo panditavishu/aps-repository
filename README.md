@@ -70,6 +70,8 @@ Time Complexity:𝑂(𝐸+𝑉log𝑉)<br/>
 O(E+VlogV), where V is the number of vertices (nodes) and E is the number of edges.<br/>
 Space Complexity: O(V), as in the worst case, it might need to store information about all nodes in the graph.<br/>
 
+#### For Code [Click Me !](https://github.com/panditavishu/aps-repository/blob/main/deliveryoptimization.cpp)
+
 
 
 ### 2) Realtime Inventory Management 
@@ -102,7 +104,7 @@ Hash Maps: O(1) average time complexity for operations, ensuring fast access and
 Sorted Operations and Range Queries:<br/>
 Balanced Trees: O(logn) time complexity for maintaining sorted order and handling range queries, ensuring efficient management of sorted inventory lists.<br/>
 
-
+#### For Code [Click Me !](https://github.com/panditavishu/aps-repository/blob/main/realtimeinventory.cpp)
 
 ### 3) Efficient Order Processing
 
@@ -120,6 +122,7 @@ Using a priority queue in a grocery delivery app ensures that the most critical 
 Time Complexity: The primary operations of a priority queue (insertion, deletion, and decrease key) all have a time complexity of O(logn). Finding the highest priority element has a time complexity of O(1).<br/>
 Space Complexity: The space complexity is O(n), where nnn is the number of elements stored in the priority queue.
 
+#### For Code [Click Me !](https://github.com/panditavishu/aps-repository/blob/main/efficientorderprocessing.cpp)
 
 ### 4) Real Time Stock Updates
 
@@ -136,6 +139,7 @@ Using a hash map in a grocery delivery app ensures efficient and real-time manag
 Time Complexity: For worst case , the time complexity will be O(n) for insert , delete and lookup operations.<br/>
 Space Complexity: O(n), where n is the number of key-value pairs stored in the hash map. This includes the space required to store the keys, values, and the underlying array used for hashing.
 
+#### For Code [Click Me !](https://github.com/panditavishu/aps-repository/blob/main/realtimestock.cpp)
 
 ### 5) Efficient Search and Filtering
 
@@ -155,6 +159,7 @@ In a grocery delivery app, when a user begins typing a product name, a trie can 
 Time Complexity: For insert and search , complexity will be O(m) , for auto complete it will be O(m+k) .
 Space Complexity: O(n×m), where n is the number of words, and mmm is the average length of the words. This can be optimized with techniques like using a compressed trie or ternary search tree.
 
+#### For Code [Click Me !](https://github.com/panditavishu/aps-repository/blob/main/efficientsearchfiltering.cpp)
 
 ### 6) Discount and Coupon Management
 For discount and coupon management in a grocery delivery app, the Rule-Based Engine combined with Trie (Prefix Tree) for efficient lookup and Priority Queue for managing active discounts and coupons is an optimal solution.
@@ -170,6 +175,7 @@ Trie: Time Complexity O(m), Space Complexity O(n⋅m)<br/>
 Priority Queue: Time Complexity:O(logn), Space Complexity O(n)<br/>
 Rule-Based Engine: Time Complexity O(1)−O(c), Space Complexity O(r)<br/>
 
+#### For Code [Click Me !](https://github.com/panditavishu/aps-repository/blob/main/discountcoupon.cpp)
 
 ### 7) Customer Feedback Analysis
 
@@ -187,6 +193,7 @@ Time Complexity for Construction: O(n) where n is the length of the text.<br/>
 Time Complexity for Search: O(m), where m is the length of the search string.<br/>
 Space Complexity: O(n), where n is the length of the text.
 
+#### For Code [Click Me !](https://github.com/panditavishu/aps-repository/blob/main/feedback.cpp)
 
 ### 8) Efficient Database Indexing
 
@@ -206,6 +213,8 @@ Step 3: When new products are added or existing product details are updated, the
 #### Complexity
 Time Complexity for Insert, Delete, and Search: O(logn), where n is the number of elements.<br/>
 Space Complexity: O(n).<br/>
+
+#### For Code [Click Me !](https://github.com/panditavishu/aps-repository/blob/main/databaseindexing.cpp)
 
 
 ### 9) Efficient Payment Processing
@@ -231,7 +240,7 @@ Deletion Time: O(log⁡n) Removing a transaction from the tree also takes logari
 Search Time: O(log⁡n) Retrieving transaction details, such as querying by transaction ID, can be done efficiently in logarithmic time.<br/>
 Space Complexity: O(n)– The tree requires linear space relative to the number of transactions stored.<br/>
 
-
+#### For Code [Click Me !](https://github.com/panditavishu/aps-repository/blob/main/paymentprocessing.cpp)
 
 ### 10) Warehouse Layout Optimization
 
@@ -248,5 +257,7 @@ A K-D Tree is a space-partitioning data structure for organizing points in a k-d
 Time Complexity for Construction: O(nlogn), where nnn is the number of items.<br/>
 Time Complexity for Search: O(log⁡n) for nearest neighbor search.<br/>
 Space Complexity: O(n)<br/>
+
+#### For Code [Click Me !](https://github.com/panditavishu/aps-repository/blob/main/warehouselayout.cpp)
 
 * * *
