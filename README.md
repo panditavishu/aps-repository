@@ -21,8 +21,9 @@ This page hosts:
 1. Introduction
 2. Why Portfolio
 3. Objectives
-4. Business Cases
-5. Challenges
+4. Design
+5. Business Cases
+6. Challenges
 
 
 
@@ -49,6 +50,9 @@ Through this portfolio, we aim to implement advanced data structures like graphs
 3) Ensure real-time inventory tracking and accurate stock levels, preventing out-of-stock situations.<br/>
 4) Analyze customer data to offer tailored product suggestions, increasing user engagement and sales.<br/>
 5) Design scalable data structures and algorithms to maintain app performance and stability as user demand grows.<br/>
+
+## Design
+I chose to focus on optimizing grocery delivery apps because they have become indispensable in our fast-paced world, offering convenience and efficiency for users looking to save time and effort. To achieve this optimization, we will implement a robust design utilizing advanced data structures and algorithms. Graph algorithms will be employed to find the most efficient delivery routes, significantly reducing delivery times and costs. Hash Maps will be used for real-time inventory tracking, ensuring accurate stock levels and preventing out-of-stock situations. Tries will enhance search functionality with quick autocomplete and filtering capabilities, providing a seamless user experience. A combination of Rule-Based Engines, Tries, and Priority Queues will manage discount and coupon systems, ensuring flexibility and efficiency. Suffix Trees will analyze customer feedback to identify patterns and improve service. B+ Trees will be used for efficient database indexing, enabling fast data retrieval, while Red-Black Trees will manage payment transactions to ensure balanced and quick operations. Lastly, K-D Trees will optimize warehouse layouts, improving item picking and packing processes. This integrated approach leverages the strengths of each data structure, ensuring the app remains responsive, scalable, and efficient, ultimately providing an enhanced user experience and maintaining a competitive edge in the market. </br>
 
 
 ## Business models
