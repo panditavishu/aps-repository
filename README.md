@@ -68,7 +68,7 @@ The A* (A-Star) algorithm is an advanced pathfinding and graph traversal techniq
 Imagine a grocery delivery service operating in a city, represented as a graph with intersections as nodes and roads as edges weighted by travel time. A delivery driver needs to deliver groceries from the store (node A) to a customer at node F. Using the A* algorithm, the service calculates the most efficient route by considering both actual travel distances and real-time traffic conditions. Starting from node A, the algorithm evaluates connected nodes, prioritizing paths with the lowest estimated total cost, which combines the travel time to the current node and a heuristic estimate to node F. By dynamically adjusting for traffic, the A* algorithm determines the optimal route, ensuring timely and cost-effective deliveries, thus enhancing customer satisfaction and operational efficiency.
 
 #### Benefits
-1) The A* algorithm reduces computation time by combining actual travel distances with heuristic estimates, allowing for quick route optimization even in changing conditions.
+1) The A* algorithm reduces computation time by combining actual travel distances with heuristic estimates, allowing for quick route optimization even in changing conditions. </br>
 2) A* guarantees the shortest path, ensuring the most time-efficient routes for delivery drivers, leading to faster and more reliable deliveries.
 #### Challenges
 1) Integrating real-time traffic data and dynamic changes in road conditions into the A* algorithm is complex and computationally intensive.<br/>
@@ -90,7 +90,7 @@ Space Complexity: O(V), as in the worst case, it might need to store information
 For real-time inventory management in a grocery delivery app, combining hash maps, balanced trees, and tries provides an optimal solution. Hash maps enable quick lookups and updates of inventory items by their unique IDs, ensuring constant time complexity for these operations. Balanced trees maintain sorted order and allow efficient range queries, facilitating tasks like displaying products by price or stock level. Tries enhance the search experience by supporting fast and efficient prefix searches, making autocomplete and product search functionalities responsive. This combination ensures the system is both highly efficient and scalable, capable of handling dynamic inventory changes and delivering a seamless user experience.
 
 #### Benefits
-1) Hash maps enable constant time complexity for inventory checks and updates, ensuring fast and efficient management.
+1) Hash maps enable constant time complexity for inventory checks and updates, ensuring fast and efficient management. </br>
 2) Balanced trees allow for quick sorting and range queries, making it easy to display products by price or stock levels.
    
 #### Challenges
@@ -127,7 +127,7 @@ This is especially useful in situations like order processing in a grocery deliv
 Using a priority queue in a grocery delivery app ensures that the most critical orders are processed first, enhancing efficiency and customer satisfaction. This approach allows the app to prioritize orders with shorter delivery windows, perishable items, and high-value customers, ensuring timely and fresh deliveries. It also enables the app to handle urgent orders swiftly, meeting customer needs promptly. By processing high-priority orders first, the app can optimize resource allocation, reducing delays and improving overall operational efficiency. This leads to a better customer experience and a more competitive edge in the fast-paced grocery delivery market.
 
 #### Benefits
-1) Urgent orders are prioritized, ensuring they are processed and delivered quickly.
+1) Urgent orders are prioritized, ensuring they are processed and delivered quickly. </br>
 2) High-priority orders are handled first, reducing delays and improving operational efficiency.
 
 
@@ -150,7 +150,7 @@ A hash map, also known as a hash table, is a data structure that allows for fast
 Using a hash map in a grocery delivery app ensures efficient and real-time management of stock updates. With average constant time complexity (O(1)) for key operations like lookups, insertions, and deletions, hash maps allow for instantaneous updates to inventory levels whenever orders are placed or new stock arrives. This speed and efficiency are crucial for maintaining accurate and up-to-date inventory, preventing issues like overselling or stockouts. Additionally, hash maps can easily handle large inventories, making them scalable as the business grows. Their straightforward implementation and support for concurrent access further enhance their suitability for dynamic, real-time environments like grocery delivery.
 
 #### Benefits
-1) Enables immediate adjustments to inventory levels upon order placements or stock changes, ensuring real-time accuracy.
+1) Enables immediate adjustments to inventory levels upon order placements or stock changes, ensuring real-time accuracy. </br>
 2) Offers constant time complexity for operations like lookups, insertions, and deletions, making it highly efficient and scalable for managing large inventories.
 
 #### Challenges
@@ -174,7 +174,7 @@ Tries are space-efficient when dealing with a large number of strings with commo
 In a grocery delivery app, when a user begins typing a product name, a trie can quickly find all products that match the entered prefix. For instance, if a user types "app," the trie can immediately suggest "apple," "applesauce," and "apricot." Additionally, filtering products based on categories or attributes (e.g., organic, gluten-free) can be efficiently managed by storing these attributes within the trie nodes.
 
 #### Benefits
-1) Enables rapid retrieval of all products matching a prefix, facilitating quick autocomplete and search suggestions as users type.
+1) Enables rapid retrieval of all products matching a prefix, facilitating quick autocomplete and search suggestions as users type. </br>
 2) Efficiently handles filtering tasks based on substrings or specific attributes (e.g., categories), allowing users to narrow down search results swiftly.
 
 #### Challenges
@@ -193,7 +193,7 @@ For discount and coupon management in a grocery delivery app, the Rule-Based Eng
 For discount and coupon management in a grocery delivery app, using a combination of a rule-based engine, trie (prefix tree), and priority queue is highly effective. The rule-based engine provides flexibility and scalability, allowing for easy creation and modification of discount policies without changing the underlying code. Tries enable efficient and fast lookup of coupon codes, especially when there are many similar codes, ensuring quick validation. Priority queues help manage and prioritize the application of discounts and coupons based on their urgency or relevance, ensuring the most important promotions are applied first. This combined approach ensures efficient, scalable, and flexible management of discounts and coupons, enhancing user experience and operational efficiency.
 
 #### Benefits
-1) Tries (prefix trees) provide rapid validation of coupon codes by efficiently searching and verifying codes against stored entries. This ensures that only valid coupons are applied, enhancing accuracy and customer satisfaction.
+1) Tries (prefix trees) provide rapid validation of coupon codes by efficiently searching and verifying codes against stored entries. This ensures that only valid coupons are applied, enhancing accuracy and customer satisfaction. </br>
 2) The rule-based engine allows easy adaptation of discount policies, enabling quick adjustments and updates without requiring code changes.
 
 #### Challenges
@@ -215,7 +215,7 @@ Customer feedback analysis is crucial for understanding customer satisfaction, i
 A suffix tree is a compressed trie of all the suffixes of a given text. It is a powerful data structure for string processing and allows for efficient searches and pattern matching. The suffix tree provides a space-efficient representation of the string and enables fast substring queries.
 
 #### Benefits
-1) Quickly identifies recurring themes or issues within feedback, facilitating prompt responses and improvements.
+1) Quickly identifies recurring themes or issues within feedback, facilitating prompt responses and improvements. </br>
 2) Minimizes memory usage by compressing textual data, making it scalable for analyzing large volumes of feedback.
 
 #### Challenges
@@ -241,7 +241,7 @@ Step 2: When a customer searches for products within a specific price range, the
 Step 3: When new products are added or existing product details are updated, the B+ Tree is adjusted to maintain its balance, ensuring that future queries remain efficient
 
 #### Benefits
-1) Enables fast insertion, deletion, and search operations in logarithmic time, ensuring rapid data retrieval and manipulation.
+1) Enables fast insertion, deletion, and search operations in logarithmic time, ensuring rapid data retrieval and manipulation. </br>
 2) Facilitates quick retrieval of data within specified ranges (e.g., price ranges), optimizing product filtering and search functionalities.
 
 
@@ -270,7 +270,7 @@ Every path from a node to its descendant NIL nodes has the same number of black 
 In a grocery delivery app, a Red-Black Tree can be used to manage payment transactions efficiently. Each transaction, including details like transaction ID, amount, timestamp, and user ID, is inserted into the Red-Black Tree, maintaining its balanced structure. This ensures that operations such as inserting new transactions, querying transaction details, and updating or deleting existing transactions are performed in logarithmic time. The balanced nature of the Red-Black Tree ensures consistent and fast access to transaction data, enabling real-time payment processing, quick retrieval of transaction histories, and efficient handling of refunds and adjustments. This ultimately enhances the user experience by providing a smooth and reliable checkout process.
 
 #### Benefits
-1) Ensures fast insertion, deletion, and search operations with O(log⁡n) time complexity, making it suitable for real-time payment processing and transaction management.
+1) Ensures fast insertion, deletion, and search operations with O(log⁡n) time complexity, making it suitable for real-time payment processing and transaction management. </br>
 2)  Maintains tree balance automatically through self-balancing properties, ensuring consistent performance regardless of transaction volume or frequency.
 
 #### Challenges
@@ -293,7 +293,7 @@ Efficient warehouse layout optimization is critical for minimizing the time and 
 A K-D Tree is a space-partitioning data structure for organizing points in a k-dimensional space. It is particularly useful for multidimensional search queries, such as range searches and nearest neighbor searches. In the context of warehouse layout optimization, a K-D Tree can help in organizing storage locations based on multiple dimensions, such as product demand frequency, storage location coordinates, and picking frequency.
 
 #### Benefits
-1) Allows for organizing storage locations based on multiple dimensions, optimizing the layout for fast access to frequently picked items and improving overall workflow efficiency.
+1) Allows for organizing storage locations based on multiple dimensions, optimizing the layout for fast access to frequently picked items and improving overall workflow efficiency. </br>
 2) Adaptable to growing warehouse sizes and changing inventory demands, ensuring continued optimization and efficiency as the business expands.
 
 #### Challenges
