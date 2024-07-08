@@ -307,4 +307,11 @@ Space Complexity: O(n)<br/>
 
 #### For Code [Click Me !](https://github.com/panditavishu/aps-repository/blob/main/warehouselayout.cpp)
 
+## References
+- Delivery Optimization : https://www.upperinc.com/blog/route-optimization-algorithm/
+- Efficient Order Processing : https://www.studysmarter.co.uk/explanations/computer-science/data-structures/priority-queue
+- Efficient Search : https://www.geeksforgeeks.org/introduction-to-trie-data-structure-and-algorithm-tutorials/
+- Suffix Tree : https://www.geeksforgeeks.org/pattern-searching-using-suffix-tree/
+- DataBase Indexing : https://www.geeksforgeeks.org/introduction-of-b-tree/
+- Red Black Trees : https://www.geeksforgeeks.org/introduction-to-red-black-tree/
 * * *
